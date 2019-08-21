@@ -1,9 +1,8 @@
 body {
   background-color: #606060;
   background-image: url("content/bg.jpg");
-  background-size: cover;
   color: white;
-  width: 600px;
+  width: 700px;
   margin: auto;
   line-height: 1;
 }

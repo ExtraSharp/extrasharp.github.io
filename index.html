@@ -10,7 +10,7 @@
     <canvas id="logoCanvas" width="700" height="725" style="text-align: center;"> </canvas>
 
     <div style="text-align: center;">
-      artist (visual art and music) and programmer (c/c++ and lisp)
+      <img src="content/ap.jpg" width="600"> </img>
       <br>
       u7 dratama
       &nbsp;
@@ -36,9 +36,9 @@
     function maybeDraw() {
       if (imagesLoaded >= 3) {
         var offset = 15;
-        ctx.drawImage(splatter, canvas.width / 2 - logo.width / 2 + 75, -100 + offset);
-        ctx.drawImage(logo, canvas.width / 2 - logo.width / 2 - 50, 0 + offset);
-        ctx.drawImage(cover, 0, 120 + offset);
+        ctx.drawImage(splatter, Math.floor(canvas.width / 2 - logo.width / 2 + 110), -100 + offset);
+        ctx.drawImage(logo, Math.floor(canvas.width / 2 - logo.width / 2 - 15), 0 + offset);
+        ctx.drawImage(cover, Math.floor(canvas.width / 2 - cover.width / 2), 120 + offset);
       }
     };
 
