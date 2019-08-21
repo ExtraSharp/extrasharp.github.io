@@ -1,0 +1,21 @@
+body {
+  background-color: #606060;
+  background-image: url("content/bg.jpg");
+  background-size: cover;
+  color: white;
+  width: 600px;
+  margin: auto;
+  line-height: 1;
+}
+
+h1 {
+  color: #080808;
+  text-align: center;
+  font-size: 2em;
+  margin: 5px 0px;
+}
+
+a {
+  color: black;
+}
+
